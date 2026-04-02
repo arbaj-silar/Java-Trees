@@ -62,7 +62,5 @@ public class BuildTree {
         b.inOrder(root);
         System.out.println();
         b.postOrder(root);
-    }
-
-    
+    } 
 }
