@@ -78,8 +78,8 @@ public class DeleteNode {
         int val[] = {8, 5, 3, 1, 4, 6, 10, 11, 14};
         Node root = buildBST(val);
         inOrder(root);
+        deleteNodeBST(root, 5);
         System.out.println();
-        Node next = deleteNodeBST(root, 5);
         inOrder(root);
     }   
 }
